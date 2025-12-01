@@ -1,0 +1,39 @@
+/* Smooth scrolling behavior for the entire document */
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Custom Properties (Variables) */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Body foreground color */
+body {
+  color: var(--text-color);
+}
+
+/* Anchor elements foreground color */
+a {
+  color: var(--text-color);
+}
+
+/* Visually hidden utility class */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category foreground color */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Section tagline foreground color */
+.section-tagline {
+  color: var(--color-primary);
+}
