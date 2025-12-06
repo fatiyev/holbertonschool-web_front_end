@@ -1,9 +1,28 @@
-/* Smooth scrolling behavior for the entire document */
 html {
   scroll-behavior: smooth;
 }
-
-/* CSS Custom Properties (Variables) */
+body {
+  font-family: var(--font-family-base);
+  color: var(--text-color);
+}
+a {
+  color: var(--text-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+}
+.visually-hidden {
+  display: none;
+}
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
+}
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -13,35 +32,4 @@ html {
   --text-color: var(--color-black);
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* Body foreground color and font */
-body {
-  color: var(--text-color);
-  font-family: var(--font-family-base);
-}
-
-/* Anchor elements foreground color */
-a {
-  color: var(--text-color);
-}
-
-/* Visually hidden utility class */
-.visually-hidden {
-  display: none;
-}
-
-/* Card category foreground color */
-.card-category {
-  color: var(--color-primary);
-}
-
-/* Section tagline foreground color */
-.section-tagline {
-  color: var(--color-primary);
-}
-
-/* Heading tags font-family */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
 }

@@ -1,29 +1,16 @@
-/* Smooth scrolling behavior for the entire document */
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
-
-/* Body foreground color */
 body {
   color: #161616;
 }
-
-/* Anchor elements foreground color */
 a {
   color: #161616;
 }
-
-/* Visually hidden utility class */
 .visually-hidden {
   display: none;
 }
-
-/* Card category foreground color */
-.card-category {
-  color: #D73953;
-}
-
-/* Section tagline foreground color */
+.card-category,
 .section-tagline {
-  color: #D73953;
+  color: #d73953;
 }
